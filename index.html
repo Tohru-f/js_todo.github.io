@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <div class="todoapp">
+    <!-- 入力するフォーム -->
+    <form id="js-form">
+      <input
+        id="js-form-input"
+        class="new-todo"
+        type="text"
+        placeholder="何やるだ？"
+        autocomplete="off"
+      />
+      <button class="todo-restore">保存するだよ</button>
+    </form>
+    <!-- 登録したtodoリストの表示 -->
+    <div id="js-todo-list" class="todo-list">
+
+    </div>
+    <footer class="footer">
+      <span id="js-todo-count">全てのタスク:3 完了済み:2 未完了:1</span>
+    </footer>
+  </div>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
