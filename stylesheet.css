@@ -1,0 +1,36 @@
+body {
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.todoapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  width: auto;
+}
+
+.form {
+  width: 300px;
+}
+
+.new-todo {
+  background-color: gray;
+}
+
+.todo-restore {
+  background-color: orange;
+  width: 100px;
+}
+
+.todo-list {
+  background-color: pink;
+}
+
+.footer {
+  background-color: green;
+}
